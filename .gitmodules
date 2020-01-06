@@ -1,0 +1,6 @@
+[submodule "pulsar"]
+	path = pulsar
+	url = git@github.com:platonai/pulsar.git
+[submodule "scent"]
+	path = scent
+	url = git@github.com:galaxyeye/scent.git

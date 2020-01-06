@@ -95,6 +95,3 @@ pulsar-ql/data/
 derby.log
 *.mv.db
 *.trace.db
-
-pulsar
-scent

@@ -55,10 +55,30 @@
         <url>http://www.github.com/platonai</url>
     </issueManagement>
 
-    <modules>
-        <module>pulsar</module>
-        <module>scent</module>
-    </modules>
+    <profiles>
+        <profile>
+            <id>pulsar</id>
+            <activation>
+                <property>
+                    <name>active-pulsar</name>
+                </property>
+            </activation>
+            <modules>
+                <module>pulsar</module>
+            </modules>
+        </profile>
+        <profile>
+            <id>scent</id>
+            <activation>
+                <property>
+                    <name>active-scent</name>
+                </property>
+            </activation>
+            <modules>
+                <module>scent</module>
+            </modules>
+        </profile>
+    </profiles>
 
     <build>
         <defaultGoal>install</defaultGoal>
