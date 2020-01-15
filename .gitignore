@@ -91,7 +91,6 @@ buildNumber.properties
 logs/
 lib/
 repo/
-pulsar-ql/data/
 derby.log
 *.mv.db
 *.trace.db
