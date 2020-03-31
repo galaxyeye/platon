@@ -883,7 +883,12 @@
             <dependency>
                 <groupId>io.dropwizard.metrics</groupId>
                 <artifactId>metrics-core</artifactId>
-                <version>${dropwizard.metrics.version}</version>
+                <version>${metrics.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>io.dropwizard.metrics</groupId>
+                <artifactId>metrics-jmx</artifactId>
+                <version>${metrics.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.slf4j</groupId>
@@ -1031,7 +1036,7 @@
         <lucene.version>8.1.1</lucene.version>
 
         <!-- Logging, metrics analyze -->
-        <dropwizard.metrics.version>4.1.2</dropwizard.metrics.version>
+        <metrics.version>4.1.2</metrics.version>
         <perf4j.version>0.9.16</perf4j.version>
         <!-- Logging And Testing Dependencies -->
         <slf4j.version>1.7.25</slf4j.version>
