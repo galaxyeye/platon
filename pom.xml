@@ -25,7 +25,7 @@
 
     <packaging>pom</packaging>
 
-    <name>Platon</name>
+    <name>Platon Dev</name>
     <description/>
     <url>http://platonic.fun</url>
     <inceptionYear>2014</inceptionYear>
@@ -54,6 +54,10 @@
         <system>GitHub</system>
         <url>http://www.github.com/platonai</url>
     </issueManagement>
+
+    <modules>
+        <module>platon</module>
+    </modules>
 
     <profiles>
         <profile>
