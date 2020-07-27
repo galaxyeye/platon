@@ -56,7 +56,6 @@
     </issueManagement>
 
     <modules>
-        <module>platon</module>
     </modules>
 
     <profiles>
