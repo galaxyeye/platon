@@ -60,6 +60,17 @@
 
     <profiles>
         <profile>
+            <id>platon</id>
+            <activation>
+                <property>
+                    <name>active-platon</name>
+                </property>
+            </activation>
+            <modules>
+                <module>platon</module>
+            </modules>
+        </profile>
+        <profile>
             <id>pulsar</id>
             <activation>
                 <property>
