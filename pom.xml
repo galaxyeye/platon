@@ -20,12 +20,12 @@
     </parent>
 
     <groupId>ai.platon</groupId>
-    <artifactId>platon</artifactId>
+    <artifactId>platon-dev</artifactId>
     <version>2</version>
 
     <packaging>pom</packaging>
 
-    <name>Platon</name>
+    <name>Platon Dev</name>
     <description/>
     <url>http://platonic.fun</url>
     <inceptionYear>2014</inceptionYear>
@@ -55,7 +55,21 @@
         <url>http://www.github.com/platonai</url>
     </issueManagement>
 
+    <modules>
+    </modules>
+
     <profiles>
+        <profile>
+            <id>platon</id>
+            <activation>
+                <property>
+                    <name>active-platon</name>
+                </property>
+            </activation>
+            <modules>
+                <module>platon</module>
+            </modules>
+        </profile>
         <profile>
             <id>pulsar</id>
             <activation>

@@ -94,3 +94,6 @@ repo/
 derby.log
 *.mv.db
 *.trace.db
+
+demo
+platon
