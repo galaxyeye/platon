@@ -27,7 +27,7 @@
 
     <name>Platon Dev</name>
     <description/>
-    <url>http://platonic.fun</url>
+    <url>http://platon.ai</url>
     <inceptionYear>2014</inceptionYear>
 
     <licenses>
@@ -39,7 +39,7 @@
 
     <organization>
         <name>The Plato Data Engine</name>
-        <url>http://platonic.fun/</url>
+        <url>http://platon.ai</url>
     </organization>
 
     <developers>
@@ -54,6 +54,11 @@
         <system>GitHub</system>
         <url>http://www.github.com/platonai</url>
     </issueManagement>
+
+    <properties>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+    </properties>
 
     <modules>
     </modules>
